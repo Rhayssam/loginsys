@@ -4,7 +4,7 @@ import 'package:loginsys/app/core/exceptions/user_notfound_exception.dart';
 import 'package:loginsys/app/core/rest_client/rest_client.dart';
 import 'package:loginsys/app/models/user_model.dart';
 
-import './auth_repository.dart';
+import 'auth_repository.dart';
 
 class AuthRepositoryImpl implements AuthRepository {
   final RestClient _restClient;

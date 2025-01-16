@@ -6,7 +6,7 @@ import 'package:loginsys/app/core/constants/constants.dart';
 import 'package:loginsys/app/core/exceptions/user_notfound_exception.dart';
 import 'package:loginsys/app/core/mixins/loader_mixin.dart';
 import 'package:loginsys/app/core/mixins/messages_mixin.dart';
-import 'package:loginsys/app/repositories/auth_repository.dart';
+import 'package:loginsys/app/repositories/auth/auth_repository.dart';
 
 class LoginController extends GetxController with LoaderMixin, MessagesMixin {
   final AuthRepository _authRepository;

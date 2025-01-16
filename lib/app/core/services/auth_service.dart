@@ -7,6 +7,7 @@ class AuthService extends GetxService {
   final _getStorage = GetStorage();
 
   Future<AuthService> init() async {
+    // logout();
     _getStorage.listenKey(Constants.USER_KEY, (value) {
       // if (value != null) {
       //   isLogged(true);

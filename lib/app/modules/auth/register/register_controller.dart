@@ -6,7 +6,7 @@ import 'package:loginsys/app/core/constants/constants.dart';
 import 'package:loginsys/app/core/mixins/loader_mixin.dart';
 import 'package:loginsys/app/core/mixins/messages_mixin.dart';
 import 'package:loginsys/app/core/rest_client/rest_client.dart';
-import 'package:loginsys/app/repositories/auth_repository.dart';
+import 'package:loginsys/app/repositories/auth/auth_repository.dart';
 
 class RegisterController extends GetxController
     with LoaderMixin, MessagesMixin {

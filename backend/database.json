@@ -5,6 +5,90 @@
             "name": "rhayssam",
             "email": "rhayssam@email.com",
             "password": "123456"
+        },
+        {
+            "id": 2,
+            "name": "elemento",
+            "email": "elemento1@gmail.com",
+            "password": "123456"
+        },
+        {
+            "id": 3,
+            "name": "elemento2",
+            "email": "elemento2@gmail.com",
+            "password": "123456"
+        }
+    ],
+    "products": [
+        {
+            "id": 0,
+            "name": "X-TUDÃO",
+            "description": "Um lanche com tudo que tem direito",
+            "price": 50.00,
+            "image": "https://blog.letskuk.com.br/wp-content/uploads/2022/10/lanches-gourmet.jpg"
+        },
+        {
+            "id": 1,
+            "name": "X-BACON",
+            "description": "Hambúrguer com bacon crocante, queijo e molhos especiais",
+            "price": 35.00,
+            "image": "https://assets.unileversolutions.com/recipes-v2/230410.jpg"
+        },
+        {
+            "id": 2,
+            "name": "X-SALADA",
+            "description": "Um clássico com hambúrguer, queijo, alface, tomate e maionese",
+            "price": 30.00,
+            "image": "https://img77.uenicdn.com/image/upload/v1587514982/business/18a8dd5bb5c948859babcb8f6bbaebf9.jpg"
+        },
+        {
+            "id": 3,
+            "name": "X-FRANGO",
+            "description": "Peito de frango grelhado, queijo, alface e molho especial",
+            "price": 32.00,
+            "image": "https://bigx.com.br/wp-content/uploads/2020/02/Big-X-Frango-ao-Catupiry.png"
+        },
+        {
+            "id": 4,
+            "name": "X-CALABRESA",
+            "description": "Lanche com linguiça calabresa, queijo derretido e cebola caramelizada",
+            "price": 40.00,
+            "image": "https://embushop.com.br/wp-content/uploads/2024/06/X-calabresa.png"
+        },
+        {
+            "id": 5,
+            "name": "X-EGG",
+            "description": "Hambúrguer com ovo frito, queijo, alface e tomate",
+            "price": 28.00,
+            "image": "https://s3-sa-east-1.amazonaws.com/deliveryon-uploads/products/camilo/6_6220ec42044fe.png"
+        },
+        {
+            "id": 6,
+            "name": "X-PICANHA",
+            "description": "Hambúrguer artesanal de picanha com queijo e molhos premium",
+            "price": 55.00,
+            "image": "https://bigx.com.br/wp-content/uploads/2020/02/Big-X-Picanha-ao-Alho.png"
+        },
+        {
+            "id": 7,
+            "name": "X-VEGETARIANO",
+            "description": "Hambúrguer de vegetais, queijo, alface, tomate e maionese vegana",
+            "price": 35.00,
+            "image": "https://thumb-cdn.soluall.net/prod/shp_products/sp1280fw/af03f77c-b979-4d6c-9ceb-4b685214b268/2c653d39-6de2-48ab-b06b-43cd445ed02a.jpeg"
+        },
+        {
+            "id": 8,
+            "name": "X-CHURRASCO",
+            "description": "Pão com carne assada no espeto, queijo e vinagrete",
+            "price": 45.00,
+            "image": "https://storage.googleapis.com/domain-images/daa9c855-3149-4d13-8da1-fcf5712742e4/products/gallery_968e05f6-1bc1-4592-b56e-d7d2d7076f35.jpg"
+        },
+        {
+            "id": 9,
+            "name": "X-DUPLO",
+            "description": "Dois hambúrgueres, queijo em dobro, bacon e molho especial",
+            "price": 60.00,
+            "image": "https://imagens.jotaja.com/produtos/2607/8845691EA121444DA9B3A15705E0F7CEC7DDCC8D53ABC58CFC044C87711E87EF.jpeg"
         }
     ]
 }

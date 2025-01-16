@@ -32,7 +32,7 @@ class SplashPage extends GetView<SplashController> {
                     width: context.widthTransformer(reducedBy: 20),
                     height: 60,
                     onPressed: () => controller.checkLogged(),
-                  )
+                  ),
                 ],
               ),
             ),

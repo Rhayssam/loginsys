@@ -12,6 +12,13 @@ class LoginsysUI {
         textStyle: const TextStyle(fontFamily: 'Roboto'),
       ),
     ),
+    bottomNavigationBarTheme: BottomNavigationBarThemeData(
+      selectedItemColor: Colors.black,
+      selectedIconTheme: const IconThemeData(color: Colors.black),
+      selectedLabelStyle: const TextStyle(fontWeight: FontWeight.bold),
+      unselectedItemColor: Colors.grey[400],
+      unselectedIconTheme: IconThemeData(color: Colors.grey[400]),
+    ),
   );
   static const TextStyle textBold = TextStyle(fontWeight: FontWeight.bold);
 }
