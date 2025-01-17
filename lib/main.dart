@@ -5,6 +5,7 @@ import 'package:loginsys/app/core/bindings/application_binding.dart';
 import 'package:loginsys/app/core/ui/loginsys_ui.dart';
 import 'package:loginsys/app/routes/auth_routers.dart';
 import 'package:loginsys/app/routes/home_routers.dart';
+import 'package:loginsys/app/routes/product_routers.dart';
 import 'package:loginsys/app/routes/splash_routers.dart';
 
 Future<void> main() async {
@@ -25,6 +26,7 @@ class LoginSysMainApp extends StatelessWidget {
         ...SplashRouters.routers,
         ...AuthRouters.routers,
         ...HomeRouters.routers,
+        ...ProductRouters.routers
       ],
     );
   }
