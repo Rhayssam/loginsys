@@ -5,7 +5,6 @@ import 'package:get/get.dart';
 
 import 'package:loginsys/app/core/services/shopping_cart_service.dart';
 import 'package:loginsys/app/models/product_model.dart';
-import 'package:loginsys/app/modules/auth/login/login_controller.dart';
 
 class ProductDetailController extends GetxController {
   final _product = Rx<ProductModel>(Get.arguments);

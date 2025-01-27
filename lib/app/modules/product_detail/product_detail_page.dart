@@ -1,7 +1,6 @@
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
 import 'package:loginsys/app/core/ui/formatter_helper.dart';
-import 'package:loginsys/app/core/ui/loginsys_ui.dart';
 import 'package:loginsys/app/core/ui/widgets/loginsys_appbar.dart';
 import 'package:loginsys/app/core/ui/widgets/loginsys_button.dart';
 import 'package:loginsys/app/core/ui/widgets/plus_minus_box.dart';
