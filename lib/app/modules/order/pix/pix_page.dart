@@ -12,7 +12,7 @@ class PixPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var qrCode = Uri.parse(_orderPix.image).data;
+    // var qrCode = Uri.parse(_orderPix.image).data;
     return Scaffold(
       appBar: LoginsysAppbar(),
       body: CustomScrollView(
@@ -32,11 +32,15 @@ class PixPage extends StatelessWidget {
                     fontWeight: FontWeight.bold,
                   ),
                 ),
-                Image.memory(
-                  qrCode!.contentAsBytes(),
-                  width: context.widthTransformer(reducedBy: 50),
-                  height: context.heightTransformer(reducedBy: 50),
+                // Image.memory(
+                //   qrCode!.contentAsBytes(),
+                //   width: context.widthTransformer(reducedBy: 50),
+                //   height: context.heightTransformer(reducedBy: 50),
+                // ),
+                const SizedBox(
+                  height: 50,
                 ),
+                const Text('Chave de Telefone'),
                 TextButton(
                   onPressed: () {
                     Clipboard.setData(ClipboardData(text: _orderPix.code));
